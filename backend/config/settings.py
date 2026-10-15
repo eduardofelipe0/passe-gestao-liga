@@ -29,7 +29,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -162,3 +161,6 @@ TIME_ZONE = "America/Sao_Paulo"
 USE_TZ = True
 
 APPEND_SLASH = False
+
+# Tipo padrão para chaves primárias automáticas
+DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
